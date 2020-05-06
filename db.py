@@ -5,9 +5,9 @@ from flask import g
 
 # Iegūstam DB informāciju no vides mainīgajiem
 # lai nebūtu jāglabā parole publiski pieejama
-ELEPHANT_HOST = os.getenv("ELEPHANT_HOST")
-ELEPHANT_NAME = os.getenv("ELEPHANT_NAME")
-ELEPHANT_PASSWORD = os.getenv("ELEPHANT_PASSWORD")
+ELEPHANT_HOST = os.getenv("balarama.db.elephantsql.com")
+ELEPHANT_NAME = os.getenv("poowmrnk")
+ELEPHANT_PASSWORD = os.getenv("HGu4YyfKk5Ug0T2XgdL0fynihci1p9pm")
 
 # Pieslēguma konfigurācija
 dsn = "host={} dbname={} user={} password={}".format(ELEPHANT_HOST, ELEPHANT_NAME, ELEPHANT_NAME, ELEPHANT_PASSWORD)
