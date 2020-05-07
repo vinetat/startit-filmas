@@ -1,3 +1,3 @@
-export ELEPHANT_HOST="kautkas-te.elephantsql.com"
-export ELEPHANT_NAME="manadb"
-export ELEPHANT_PASSWORD="managaraparole"
+export ELEPHANT_HOST="balarama.db.elephantsql.com"
+export ELEPHANT_NAME="poowmrnk"
+export ELEPHANT_PASSWORD="HGu4YyfKk5Ug0T2XgdL0fynihci1p9pm"

@@ -12,7 +12,7 @@ def varda_diena(vards):
 
 def varda_dala(teksts):
     sql = "SELECT * FROM vardadienas WHERE vards LIKE '%%s%' ORDER BY vards"
-    t = (vards,)
+    t = (teksts,)
     atbilde = get_all(sql, t)
     return atbilde
 
